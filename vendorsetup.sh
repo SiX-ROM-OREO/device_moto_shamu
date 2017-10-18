@@ -14,7 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_shamu.mk \
-    $(LOCAL_DIR)/bt_shamu.mk \
-    $(LOCAL_DIR)/six.mk
+add_lunch_combo aosp_shamu-userdebug
